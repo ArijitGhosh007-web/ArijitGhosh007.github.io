@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image.jpg.jpg);
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+ 
+}
+ul li{
+    display: inline-block;
+    margin: 0px,20px;
+    margin-top: 30px;
+    padding: 5px;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 30px;
+
+    
+
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+
+    
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    margin: 20px;
+    cursor: pointer;
+}
+ul li ::after{
+    content:'' ;
+    width: 100%;
+    color: #009688;
+   height: 3px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+ul :hover{
+    color: black;
+    background-color: white;
+    transition: .7s ease-in;
+}
+.logo :hover{
+    height: 200px;
+    width: 200px;
+    transition: 1s ease-in;
+
+}
+
+
+
+    
+    
